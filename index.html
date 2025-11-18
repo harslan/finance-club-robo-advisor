@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Robo-Advisor Project | Suffolk University</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            border-bottom: 3px solid #003da5;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #003da5;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        h2 {
+            color: #003da5;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+            border-left: 4px solid #003da5;
+            padding-left: 15px;
+        }
+        
+        h3 {
+            color: #555;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        .highlight-box {
+            background: #f0f7ff;
+            border-left: 4px solid #003da5;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .phase {
+            background: #fafafa;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        
+        .phase h3 {
+            color: #003da5;
+            margin-top: 0;
+        }
+        
+        ul {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .tech-stack {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .tech-item {
+            background: #f8f8f8;
+            padding: 15px;
+            border-radius: 4px;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .tech-item strong {
+            color: #003da5;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .questions {
+            background: #fffbf0;
+            border-left: 4px solid #ffa500;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .questions h3 {
+            color: #cc8400;
+            margin-top: 0;
+        }
+        
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI-Powered Robo-Advisor Project</h1>
+            <p class="subtitle">Finance & Investing Club | Suffolk University Sawyer Business School</p>
+        </header>
+
+        <section>
+            <h2>What We're Building</h2>
+            <p>An AI-powered robo-advisor that runs <strong>parallel to your Tremont Fund decisions</strong>. Each week, you'll see three different perspectives on the same investment choices:</p>
+            <ul>
+                <li><strong>AI recommendations</strong> based on market analysis and financial data</li>
+                <li><strong>Quantitative models</strong> using Monte Carlo simulation and portfolio optimization</li>
+                <li><strong>Your actual decisions</strong> from the Finance Club's investment process</li>
+            </ul>
+            
+            <div class="highlight-box">
+                <strong>The Learning Hook:</strong> By comparing these three approaches over time, you'll develop sophisticated insights about when to trust AI, when quantitative models matter most, and where human judgment is irreplaceable. This isn't about replacing your decision-making—it's about understanding how AI can augment it.
+            </div>
+        </section>
+
+        <section>
+            <h2>Three-Phase Development</h2>
+            
+            <div class="phase">
+                <h3>Phase 1: Foundation</h3>
+                <p><strong>Goal:</strong> Build core quantitative tools</p>
+                <ul>
+                    <li>Monte Carlo simulation for portfolio risk assessment</li>
+                    <li>Portfolio optimization using Modern Portfolio Theory</li>
+                    <li>Basic asset allocation models</li>
+                    <li>Backtesting framework</li>
+                </ul>
+                <p><em>Quick win: A working tool that suggests portfolio allocations</em></p>
+            </div>
+
+            <div class="phase">
+                <h3>Phase 2: AI Integration</h3>
+                <p><strong>Goal:</strong> Add AI-powered analysis</p>
+                <ul>
+                    <li>Market sentiment analysis from financial news and earnings calls</li>
+                    <li>AI-assisted investment thesis generation</li>
+                    <li>Risk factor identification from SEC filings</li>
+                    <li>Comparative dashboard showing AI vs. quant recommendations</li>
+                </ul>
+                <p><em>This is where it gets interesting: seeing AI analyze what you're already researching</em></p>
+            </div>
+
+            <div class="phase">
+                <h3>Phase 3: Comparative Analysis</h3>
+                <p><strong>Goal:</strong> Build systematic insights</p>
+                <ul>
+                    <li>Track and analyze differences between AI, quant, and human decisions</li>
+                    <li>Performance attribution by decision source</li>
+                    <li>Case study repository of interesting divergences</li>
+                    <li>Best practices guide for AI in investment research</li>
+                </ul>
+                <p><em>The payoff: Real data on how AI performs vs. human judgment in finance</em></p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Technical Approach</h2>
+            <div class="tech-stack">
+                <div class="tech-item">
+                    <strong>Backend</strong>
+                    Python with libraries for financial analysis (pandas, numpy, scipy) and optimization (cvxpy)
+                </div>
+                <div class="tech-item">
+                    <strong>AI Layer</strong>
+                    Claude API for analyzing financial documents, market sentiment, and generating investment insights
+                </div>
+                <div class="tech-item">
+                    <strong>Frontend</strong>
+                    Streamlit for Phase 1-2 (fast, Python-native), potentially React later if needed
+                </div>
+                <div class="tech-item">
+                    <strong>Data Sources</strong>
+                    Yahoo Finance, SEC EDGAR filings, financial news APIs—all free or have free tiers
+                </div>
+            </div>
+            <p><strong>No prior coding required:</strong> We'll structure this so students with different skill levels can contribute—from Python development to investment analysis to case study documentation.</p>
+        </section>
+
+        <section>
+            <h2>How This Works with Tremont Fund</h2>
+            <p>The basic idea: AI and quantitative models generate recommendations that you can compare against your actual decisions. Over time, you build a collection of insights about when each approach adds value.</p>
+            <p>The exact workflow depends on how your club operates—we can figure out what makes sense on Thursday.</p>
+        </section>
+
+        <section>
+            <h2>What Students Learn</h2>
+            <ul>
+                <li><strong>AI Literacy:</strong> Hands-on experience with LLMs in finance, understanding capabilities and limitations</li>
+                <li><strong>Quantitative Skills:</strong> Python programming, Monte Carlo simulation, portfolio optimization</li>
+                <li><strong>Critical Thinking:</strong> When to trust AI recommendations vs. human judgment</li>
+                <li><strong>Professional Skills:</strong> Building portfolio-worthy projects, collaborative development, technical communication</li>
+                <li><strong>Industry Readiness:</strong> Experience with tools and approaches used by modern robo-advisors and quantitative firms</li>
+            </ul>
+            
+            <div class="highlight-box">
+                <strong>Reality Check:</strong> This is ambitious. Not every phase needs to happen, and the scope can adapt based on student interest and bandwidth. The goal is meaningful learning, not building a production system. Even Phase 1 alone would be valuable.
+            </div>
+        </section>
+
+        <section>
+            <h2>Connection to SAIL Framework</h2>
+            <p>This project embodies Suffolk's SAIL approach to AI education:</p>
+            <div class="tech-stack">
+                <div class="tech-item">
+                    <strong>Social Intelligence</strong>
+                    Collaborative decision-making between AI systems and human teams; understanding group dynamics in AI-augmented environments
+                </div>
+                <div class="tech-item">
+                    <strong>AI Literacy</strong>
+                    Practical experience with AI capabilities and limitations; critical evaluation of AI outputs in high-stakes contexts
+                </div>
+                <div class="tech-item">
+                    <strong>Innovation/Inquiry</strong>
+                    Student-led exploration of AI in finance; systematic investigation of human-AI collaboration patterns
+                </div>
+                <div class="tech-item">
+                    <strong>Leadership</strong>
+                    Finance Club leading AI education at SBS; building capabilities that position Suffolk students ahead of the curve
+                </div>
+            </div>
+            <p>By developing this project, the Finance Club becomes a visible example of how Suffolk students are preparing for AI-augmented careers—creating a showcase for prospective students, industry partners, and the broader business school community.</p>
+        </section>
+
+        <section class="questions">
+            <h3>Questions for Thursday's Discussion</h3>
+            <ul>
+                <li>What decisions does the Finance Club make weekly/monthly with the Tremont Fund?</li>
+                <li>What data and analysis tools do you currently use?</li>
+                <li>What would make this most valuable for your learning?</li>
+                <li>What technical skills exist within current club membership?</li>
+                <li>What aspects of AI in finance are you most curious about?</li>
+                <li>How can we structure this to complement (not compete with) your current workflow?</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p><strong>Contact:</strong> Hasan Arslan | Chief AI Officer & Associate Professor, ISOM Department</p>
+            <p>Email: harslan@suffolk.edu</p>
+            <p><em>Prepared for Finance & Investing Club meeting, November 2024</em></p>
+        </footer>
+    </div>
+</body>
+</html>
